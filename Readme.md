@@ -96,7 +96,10 @@ Sigue las indicaciones de github para crear tu nuevo repositorio en linea de com
 
 8. Vuelve a subir los cambios a tu repositorio de github (git push)
 
+<<<<<<< HEAD
 ![Git Push](14.png)
+=======
+>>>>>>> 09fb218280cdcbeac3fc9e480924ca9986d814bf
 
 ## Creación de nuestro servidor web y visualización de nuestro proyecto
 En un nueva pestaña de terminal y en el mismo directorio, ejecuta php -S 0:8080 para lanzar un servidor con la página html que has creado.
