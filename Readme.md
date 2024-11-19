@@ -107,10 +107,25 @@ Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8
 ## Seguimos Trabajando con Git
 1. Haz una copia del archivo local index.html con el nombre index.html.save. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
 2. Verifica estado del proyecto.
+
+![Seguimos](16.png)
+
 3. Comprueba las diferencias de los archivos que no han sido añadidos (git diff)
+
+![Seguimos](17.png)
+
 4. Refresca navegador para comprobar que ha cambiado el contenido de nuestra página web.
+
+![Seguimos](18.png)
+
 5. Vuelve a la versión anterior del archivo index.html (git restore).
+
+![Seguimos](19.png)
+
 6. Vuelve a refrescar navegador para ver como vuelve a versión inicial.
+
+![Seguimos](20.png)
+
 7. Vamos a utiliza el comando git mv. Elimina el archivo index.html y después de hacer un commit, mueve el archivo con index.html.save a index.html
 8. Mira el estado del proyecto y confirma todos los cambios.
 9. Para pull y push, haz un push y comprueba cómo han subido los archivos a github.com.
