@@ -62,32 +62,56 @@ Sigue las indicaciones de github para crear tu nuevo repositorio en linea de com
 1. Crea una carpeta con nombre Excluded. En ella vamos a colocar la documentación que no queremos que sea rastreada y subida al repositorio.
 
 2. Para comprobar que funciona crea algún archivo vacío allí y también crea un archivo con nombre excluido.txt en el directorio principal del repositorio.
+
+![Archivos creados](8.png)
+
 3. Crea un archivo con nombre .gitignore en el cual vamos a poner los archivos y directorios que no queremos que se rastreen.
-4. Indica en el .gitignore que los archivos con extensión .txt y el directorio Excluded no deben de ser rastreados ni sincronizados..
+
+4. Indica en el .gitignore que los archivos con extensión .txt y el directorio Excluded no deben de ser rastreados ni sincronizados.
+
+![Creación de .gitignore](9.png)
+
 5. Comprueba el estado del proyecto y comprueba que no nos indica nada del seguimiento de dichos archivos.
+
+![Git Status](10.png)
 
 ## Trabajo con Git
 
-Crea un archivo con nombre index.html.
-Introduce el código html para que nos muestre un mensaje de Hola mundo con tu nombre. Uno sencillo sería este:
+1. Crea un archivo con nombre index.html.
+2. Introduce el código html para que nos muestre un mensaje de Hola mundo con tu nombre. Uno sencillo sería este:
    <H1>Hola $USER¡¡¡ ¿Qué tal te encuentras?</H1>
-Visualiza el estado del proyecto ( puedes hacer tambien un git status corto git status --s` o `git status --short).
-Puedes ver como te indica que tienes varias operaciones por hacer: git add, git commit...
-Añade el archivo index.html al proyecto (git add).
-Haz un commit (Puedes hacer ``commit -am "commentario del commit"` de esta manera se añaden las modificaciones de archivos y se hace el commit con el mensaje indicado sin abrir el archivo y tener que escribir nosotros).
-Vuelve a comprobar el estado del proyecto. Puedes ver como ya debería de estar todo en orden.
-Vuelve a subir los cambios a tu repositorio de github (git push)
-Creación de nuestro servidor web y visualización de nuestro proyecto
+3. Visualiza el estado del proyecto ( puedes hacer tambien un git status corto git status --s o git status --short).
+
+![Git Status](11.png)
+
+4. Puedes ver como te indica que tienes varias operaciones por hacer: git add, git commit...
+5. Añade el archivo index.html al proyecto (git add).
+
+![Git Status](12.png)
+
+6. Haz un commit (Puedes hacer ``commit -am "commentario del commit"` de esta manera se añaden las modificaciones de archivos y se hace el commit con el mensaje indicado sin abrir el archivo y tener que escribir nosotros).
+7. Vuelve a comprobar el estado del proyecto. Puedes ver como ya debería de estar todo en orden.
+
+![Git Status](13.png)
+
+8. Vuelve a subir los cambios a tu repositorio de github (git push)
+
+![Git Push](14.png)
+
+## Creación de nuestro servidor web y visualización de nuestro proyecto
 En un nueva pestaña de terminal y en el mismo directorio, ejecuta php -S 0:8080 para lanzar un servidor con la página html que has creado.
 Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8080 de tu equipo:
-Seguimos Trabajando con Git
-Haz una copia del archivo local index.html con el nombre index.html.save. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
-Verifica estado del proyecto.
-Comprueba las diferencias de los archivos que no han sido añadidos (git diff)
-Refresca navegador para comprobar que ha cambiado el contenido de nuestra página web.
-Vuelve a la versión anterior del archivo index.html (git restore).
-Vuelve a refrescar navegador para ver como vuelve a versión inicial.
-Vamos a utiliza el comando git mv. Elimina el archivo index.html y después de hacer un commit, mueve el archivo con index.html.save a index.html
-Mira el estado del proyecto y confirma todos los cambios.
-Para pull y push, haz un push y comprueba cómo han subido los archivos a github.com.
-Modifica el archivo index.php desde la página de github.com y haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador.
+
+![HTML](15.png)
+
+## Seguimos Trabajando con Git
+1. Haz una copia del archivo local index.html con el nombre index.html.save. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
+2. Verifica estado del proyecto.
+3. Comprueba las diferencias de los archivos que no han sido añadidos (git diff)
+4. Refresca navegador para comprobar que ha cambiado el contenido de nuestra página web.
+5. Vuelve a la versión anterior del archivo index.html (git restore).
+6. Vuelve a refrescar navegador para ver como vuelve a versión inicial.
+7. Vamos a utiliza el comando git mv. Elimina el archivo index.html y después de hacer un commit, mueve el archivo con index.html.save a index.html
+8. Mira el estado del proyecto y confirma todos los cambios.
+9. Para pull y push, haz un push y comprueba cómo han subido los archivos a github.com.
+10. Modifica el archivo index.php desde la página de github.com y haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador.
