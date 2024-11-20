@@ -127,8 +127,13 @@ Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8
 ![Seguimos](/Imágenes/20.png)
 
 7. Vamos a utiliza el comando git mv. Elimina el archivo index.html y después de hacer un commit, mueve el archivo con index.html.save a index.html
-
-
 8. Mira el estado del proyecto y confirma todos los cambios.
+
+![Seguimos](/Imágenes/21.png)
+
 9. Para pull y push, haz un push y comprueba cómo han subido los archivos a github.com.
+
+![Seguimos](/Imágenes/22.png)
+
 10. Modifica el archivo index.php desde la página de github.com y haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador.
+
