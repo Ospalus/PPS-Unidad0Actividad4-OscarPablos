@@ -137,3 +137,7 @@ Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8
 
 10. Modifica el archivo index.php desde la página de github.com y haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador.
 
+
+![Seguimos](/Imágenes/24.png)
+
+![Seguimos](/Imágenes/23.png)
