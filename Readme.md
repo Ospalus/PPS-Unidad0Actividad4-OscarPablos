@@ -10,7 +10,7 @@ Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeñ
 
 Ya habrás configurado tu user y tu email con git config:
 
-![Configuración de correo](/Imágenes/1.png.png)
+![Configuración de correo](/Imágenes/1.png)
 
 Vamos a configurar algunas cosas más.
 
